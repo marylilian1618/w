@@ -39,10 +39,9 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: rgb(5, 218, 247);
     color: white;
-
 }
 .msg {
-    background-color: #A7C6DA;
+    background-color: #fc9738;
 }
 footer{
     background-color: #EDFF71;
@@ -82,5 +81,5 @@ footer p {
 }   
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }     
