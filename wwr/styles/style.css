@@ -42,7 +42,7 @@ nav a:hover {
     color: white;
 }
 .msg {
-    background-color: #fc9738;
+    background-color: #ee7809;
 }
 footer{
     background-color: #EDFF71;
@@ -55,10 +55,10 @@ h4{
     color: rgb(3, 78, 112);
 }
 .msg h2{
-    color:black;
+    color:rgb(202, 255, 132);
 }
 .msg p{
-    color: black;
+    color: rgb(249, 255, 159);
 }
 footer a{
     color: rgb(0, 0, 155);
