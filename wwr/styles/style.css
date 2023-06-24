@@ -203,7 +203,67 @@ main section img {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-
+.title-blog {
+    background-color: aqua;
+    color: white;
+  }
+  
+  .greened {
+    background-color: rgb(214, 255, 118);
+  }
+  
+  .make-sure {
+    background-color: #ffb0db;
+  }
+  
+  .make-sure1 {
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px;
+    background-color: #ffb0db;
+  }
+  
+  .incredible-season {
+    background-color: aqua;
+  }
+  
+  .highlights {
+    background-color: rgb(211, 180, 8);
+    color: white;
+  }
+  
+  .highlights1 {
+    font-size: 1em;
+    background-color: rgb(211, 180, 8);
+    color: white;
+  }
+  
+  .rose {
+    background-color: #ff2970;
+    color: white;
+  }
+  
+  .green {
+    background-color: rgb(202, 255, 132);
+    color: black;
+  }
+  
+  .blue {
+    background-color: #1babff;
+    color: white;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr
+  }
+  
+  .background1 {
+    background-color: #fff45b;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
