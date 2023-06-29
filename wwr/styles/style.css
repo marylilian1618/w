@@ -203,26 +203,54 @@ main section img {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-.title-blog {
-    background-color: aqua;
-    color: white;
+.title-blog-color {
+    background-color: #61faff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
-  .greened {
-    background-color: rgb(214, 255, 118);
+  
+  .title-blog p {
+    font-size: 16px;
+    margin-bottom: 10px;
   }
   
-  .make-sure {
-    background-color: #ffb0db;
+  .title-blog h1 {
+    font-size: 32px;
+    margin-top: 0;
   }
   
-  .make-sure1 {
-    line-height: 1.5em;
-    padding: 35px;
-    margin-top: 150px;
-    background-color: #ffb0db;
+  
+  .background1 {
+    position: relative;
+    text-align: center;
   }
   
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .highlights-make-sure-container {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 600px;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .my-img {
+    max-width: 100%;
+  }
   .incredible-season {
     background-color: aqua;
   }
@@ -257,12 +285,17 @@ main section img {
     display: grid;
     grid-template-columns: 1fr
   }
-  
-  .background1 {
-    background-color: #fff45b;
-    justify-content: space-around;
+  .grid2 section {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    margin-bottom: 30px;
   }
+  
+  .grid2 section .my-img {
+    margin-right: 20px;
+  }
+   
   
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -304,4 +337,12 @@ main section img {
     footer {
         margin-top: 25px;
     }
+    .container {
+        flex-direction: column;
+      }
+      
+      .highlights-make-sure-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
 }
