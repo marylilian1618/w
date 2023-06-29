@@ -266,11 +266,6 @@ main section img {
     color: white;
   }
   
-  .rose {
-    background-color: #ff2970;
-    color: white;
-  }
-  
   .green {
     background-color: rgb(202, 255, 132);
     color: black;
@@ -285,17 +280,57 @@ main section img {
     display: grid;
     grid-template-columns: 1fr
   }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
   .grid2 section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
   }
   
   .grid2 section .my-img {
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
   }
-   
+  
+  .rose {
+    background-color: #ff2970;
+    color: white;
+    order: 2;
+  }
+  
+  .make-sure {
+    background-color: #ff2970;
+    color: white;
+    order: 3;
+  }
+  
+  .make-sure p {
+    background-color: #ff2970;
+    color: white;
+  }
+  
+  .blue {
+    background-color: #1babff;
+    color: white;
+    order: 4;
+  }
+  
+  .t {
+    order: 6;
+  }
+  
+  .t .my-img {
+    order: 5;
+  }
+  
+  
+ 
   
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
