@@ -83,13 +83,13 @@ body {
   padding-right: 60px;
 }
 
-.main.grid {
+.maingrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 20px;
   align-items: center; 
   background-color: #f8bbd0;
   place-content: center;
+  justify-items: center;
 }
 
 .div1 h3{
@@ -119,7 +119,6 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-top: 20px;
  }
  
  .rose {
@@ -134,9 +133,14 @@ body {
  
  /* Footer Styles */
  footer {
-   background-color:#ebe285;
-   color: #fff;
-   text-align: center;
+  background-color:#ebe285;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: large;
+  font-family: emoji;
+  
  }
  
  .social img {
@@ -147,6 +151,49 @@ body {
  
  .social p {
    margin: 10px 0;
+ }
+ /*Page 2*/
+ .maingrid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  background-color: #ffcdd2;
+  place-content: center;
+  justify-items: center;
+}
+.image {
+  max-width: 400px; /* Establecer ancho máximo de 500px para las imágenes */
+  max-height: 300px; /* Establecer altura máxima de 400px para las imágenes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.div2 {
+  background-color: #ebe285;
+  padding: 40px;
+  font-size: x-large;
+  font-family: emoji;
+  max-width: 350px;
+ }
+ .background-rose{
+  background-color: #ffcdd2;
+ }
+ .rosee{
+  background-color: #ff80ac;
+  color: white;
+  font-family: emoji;
+  width: 60%;
+  font-size: x-large;
+  padding: 40px;
+ }
+ .yellow2 {
+  background-color: #ffeb3b;
+  font-size: x-large;
+  font-family: emoji;
+  padding: 60px;
+  text-align: center;
  }
 /* Slideshow gallery */
  * {
@@ -246,8 +293,11 @@ body {
      width: 100%;
    }
  
-   .main.grid {
+   .maingrid {
      grid-template-columns: 1fr;
+   }
+   .maingrid2{
+    grid-template-columns: 1fr;
    }
  
    .flex {
