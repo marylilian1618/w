@@ -113,6 +113,7 @@ body {
   padding: 30px;
   font-size: x-large;
   font-family: emoji;
+  text-align: center;
  }
  
  .flex {
@@ -126,9 +127,23 @@ body {
    padding: 30px;
    font-size: x-large;
    font-family: emoji;
+   text-align: center;
  }
  .background-green{
   background-color: #7cb350;
+ }
+ .green{
+  background-color: #7cb350;
+  color:#f2f2f2;
+  text-align: center;
+  padding: 30px;
+ }
+ .rose2{
+  background-color: #ff80ac;
+  color:#fff;
+  font-family: emoji;
+  padding: 40px;
+  text-align: center;
  }
  
  /* Footer Styles */
